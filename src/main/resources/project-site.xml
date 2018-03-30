@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<configuration>
+	<!-- data property -->
+	<property>
+		<name>data.raw.path</name>
+		<value>hdfs://localhost:8020/review/data/reviewtext.txt</value>
+	</property>
+	<property>
+		<name>data.labled.path</name>
+		<value>hdfs://localhost:8020/review/data/train/</value>
+	</property>
+	<property>
+		<name>data.unlabled.path</name>
+		<value>hdfs://localhost:8020/review/data/test/</value>
+	</property>
+	<!-- temporary property -->
+	<property>
+		<name>temp.c.path</name>
+		<value>hdfs://localhost:8020/review/temp/CIntermediate/</value>
+	</property>
+	<property>
+		<name>temp.etf.path</name>
+		<value>hdfs://localhost:8020/review/temp/LastReviewTime/</value>
+	</property>
+	<property>
+		<name>temp.export.path</name>
+		<value>hdfs://localhost:8020/review/temp/Export/</value>
+	</property>
+	<property>
+		<name>temp.dtdata.path</name>
+		<value>hdfs://localhost:8020/review/temp/dtdata</value>
+	</property>
+	<property>
+		<name>temp.dtinfo.path</name>
+		<value>hdfs://localhost:8020/review/temp/dtinfo</value>
+	</property>
+	<property>
+		<name>temp.dtoutput.path</name>
+		<value>hdfs://localhost:8020/review/temp/dtoutput</value>
+	</property>
+	<property>
+		<name>temp.dtpredict.path</name>
+		<value>hdfs://localhost:8020/review/temp/dtpredict</value>
+	</property>
+
+
+	<!-- model property -->
+	<property>
+		<name>model.user.path</name>
+		<value>/Users/wislish/review-data/user/</value>
+	</property>
+	<property>
+		<name>model.shop.path</name>
+		<value>/Users/wislish/review-data/shop</value>
+	</property>
+	<property>
+		<name>model.review.path</name>
+		<value>hdfs://localhost:8020/review/model/review</value>
+	</property>
+</configuration>
